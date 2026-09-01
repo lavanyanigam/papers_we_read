@@ -1,6 +1,6 @@
 # One Layer Is Enough: Adapting Pretrained Visual Encoders for Image Generation
 
-Yuan Gao, Chen Chen, Tianrong Chen, Jiatao Gu, arXiv 2025
+Yuan Gao, Chen Chen, Tianrong Chen, Jiatao Gu, CVPR 2026
 
 ## **Summary**
 Pretrained visual backbones like DINOv2 and SigLIP offer rich semantic features, but their high-dimensional outputs make latent diffusion models unstable and slow to train. The Feature Autoencoder (FAE) resolves this issue by using a single self-attention layer to compress pretrained embeddings into compact latents. It uses an architecture such that the original feature space is restored before decoding it into RGB pixels.
