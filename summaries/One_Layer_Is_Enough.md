@@ -28,6 +28,7 @@ $$\mathcal{L}_{VAE} = \Vert{} \hat{x} - x \Vert{}_2^2 + \beta\, \text{KL}\big(q(
 
 ## **Results**
 <img src="../images/fae_compare.png" alt="Diagram comparing SD-VAE, VA-VAE, RAE, and FAE" width="500">
+
 * **Generation Performance:** Reaches competitive FID scores on ImageNet and MS-COCO with a fraction of the training compute required by traditional VAEs.
 * **Versus Feature Alignment (REPA, VA-VAE):** Avoids complex multi-stage training overhead and alignment loss tuning while retaining backbone representations.
 * **Versus Direct Modeling (RAE):** Avoids forcing the generative backbone to expand channel width or add extra heads to process massive uncompressed vectors.
